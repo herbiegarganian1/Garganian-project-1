@@ -233,3 +233,20 @@ footer {
     background: #0ea5e9;
     transform: translateY(-2px);
 }
+
+/* CONTACT SECTION IMPROVEMENTS */
+
+#contact a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact a:focus-visible {
+    outline: 2px solid #38bdf8;
+    outline-offset: 4px;
+}
