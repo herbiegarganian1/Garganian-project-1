@@ -211,3 +211,25 @@ footer {
         padding: 50px 5%;
     }
 }
+
+/* ACCESSIBILITY IMPROVEMENTS */
+
+.navbar a:focus-visible,
+.btn:focus-visible {
+    outline: 3px solid #38bdf8;
+    outline-offset: 5px;
+    border-radius: 4px;
+}
+
+.navbar a {
+    transition: color 0.3s ease;
+}
+
+.btn {
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+    transform: translateY(-2px);
+}
